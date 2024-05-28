@@ -1,13 +1,7 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/KronosSolucionesTIC/godesde0/variables/ejercicios"
-)
+import "github.com/KronosSolucionesTIC/godesde0/files"
 
 func main() {
-	numero, texto := ejercicios.ConvNumerico("a")
-	fmt.Println(numero)
-	fmt.Println(texto)
+	files.LeoArchivo()
 }
