@@ -1,7 +1,9 @@
 package main
 
-import "github.com/KronosSolucionesTIC/godesde0/files"
+import (
+	"github.com/KronosSolucionesTIC/godesde0/mapas"
+)
 
 func main() {
-	files.LeoArchivo()
+	mapas.MostrarMapas()
 }
